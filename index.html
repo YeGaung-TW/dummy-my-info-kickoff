@@ -11,7 +11,7 @@
 <script>
     function redirectToMyInfo() {
         const state = Math.floor(Math.random() * (999999)) + 1;
-        const url = "https://staging.api.myinfo.gov.sg/gov/v3/authorise?client_id=STG2-MYINFO-SELF-TEST&attributes=uinfin&purpose=demonstrating%20MyInfo%20APIs&redirect_uri=http://localhost:3001/callback&sp_esvcId=NDI-OIDC-TEST&state=" + state;
+        const url = "https://staging.api.myinfo.gov.sg/gov/v3/authorise?client_id=STG2-MYINFO-SELF-TEST&attributes=uinfin&purpose=demonstrating%20MyInfo%20APIs&redirect_uri=https://yegaung-tw.github.io/dummy-my-info-kickoff/callback&sp_esvcId=NDI-OIDC-TEST&state=" + state;
         window.location.href = url;
     }
 </script>
